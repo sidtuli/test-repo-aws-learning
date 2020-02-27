@@ -9,6 +9,5 @@ def send_sns_message ():
     )
 
 def lambda_handler(event, context):
-    # TODO implement
     send_sns_message()
     
